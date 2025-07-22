@@ -359,7 +359,7 @@
 
 <div class="header">
   <h1>🌋 Observatorios Vulcanológicos</h1>
-  <p>Red de monitoreo sísmico y vulcanológico del Ecuador</p>
+  <p>Red de monitoreo vulcanológico del Ecuador</p>
 </div>
 
 <div class="layer-control">
@@ -1057,7 +1057,7 @@
       showLoading('Cargando capas adicionales...');
       await Promise.allSettled([
         loadAdditionalLayer('cantones', 'cantones', '#3182ce'),
-        loadAdditionalLayer('vias', 'viass', '#38a169'),
+        loadAdditionalLayer('vias', 'vias', '#38a169'),
         loadAdditionalLayer('poblaciones', 'poblaciones2', '#d69e2e'),
         loadAdditionalLayer('aeropuertos', 'aeropuertos', '#805ad5', true)
       ]);
